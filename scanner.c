@@ -1,10 +1,19 @@
 #include <stdio.h>
 
+typedef struct node {
+    int num;
+    struct node* n; 
+}node;
+
 int main(void) {
 
     printf("I love git\nVery much\n");
 
-    printf("Goodbye\n");
+    node n1;
+
+    n1.num = 8;
+
+    printf("n1.num is %d\n", n1.num);
     
     return 0;
 
