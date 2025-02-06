@@ -15,6 +15,8 @@ int main(void) {
 
     printf("n1.num is %d\n", n1.num);
     
+    n1.n = &n1;
+    
     return 0;
 
 }
